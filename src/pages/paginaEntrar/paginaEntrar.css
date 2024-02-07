@@ -1,0 +1,46 @@
+.dadosConta {
+    display: block;
+    text-align: center;
+    background: rgba(129, 199, 104, 0.50);
+    margin: 100px 20% 0;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+
+.dadosConta h1 {
+    font-size: 30px;
+    margin: 10px 0 30px 0;
+    padding-top: 30px;
+}
+
+#email,
+#senha {
+    float: left;
+    font-size: 20px;
+    margin: 20px 15% 10px;
+}
+
+.email,
+.senha {
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.botaoEntrar,
+.botaoCriar {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #b9e4aa;
+}
+
+.botaoEntrar:hover,
+.botaoCriar:hover {
+    background-color: #abcf9e;
+    transform: scale(1.05);
+
+    cursor: pointer;
+}

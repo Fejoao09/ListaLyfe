@@ -1,0 +1,19 @@
+.erro p {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: antiquewhite;
+}
+
+.erro a {
+    font-size: 30px;
+    color: coral;
+}
+
+.erro a:hover {
+    color: rgb(255, 96, 39);
+}
+
+.erro {
+    margin-top: 250px;
+    text-align: center;
+}
