@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Principal from "../pages/paginaPrincipal";
 import Entrar from "../pages/paginaEntrar";
 import PaginaErro from "../pages/erroPage";
@@ -14,7 +14,7 @@ const Private = ({ Item }) => {
 
 const RoutesApp = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Fragment>
                 <Routes>
                     <Route exact path="/principal" element={<Private Item={Principal} />} />
@@ -23,7 +23,7 @@ const RoutesApp = () => {
                     <Route path="*" element={<PaginaErro />} />
                 </Routes>
             </Fragment>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
